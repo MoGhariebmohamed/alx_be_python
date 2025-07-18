@@ -1,4 +1,5 @@
-weather =input(": What's the weather like today? (sunny/rainy/cold):.")
+#Print the clothing recommendation based on the weather condition provided by the user.
+weather =input(": What's the weather like today? (sunny/rainy/cold): ")
 if weather.upper() == "SUNNY":
     print("Wear a t-shirt and sunglasses.")
 elif weather.lower() == "rainy":
